@@ -31,9 +31,7 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="AWSstop.ps1" />
-    <Compile Include="AWSstart.ps1" />
-    <Compile Include="AWSEc2stopped.ps1" />
+    <Compile Include="AWStools.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
